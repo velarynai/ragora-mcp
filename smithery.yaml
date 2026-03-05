@@ -1,0 +1,21 @@
+# Smithery configuration for Ragora MCP Server
+# https://smithery.ai/docs/build/project-config/smithery.yaml
+#
+# Ragora is a hosted remote MCP server — Smithery proxies requests to our cloud.
+
+startCommand:
+  type: http
+  configSchema:
+    type: object
+    required:
+      - apiKey
+    properties:
+      apiKey:
+        type: string
+        title: API Key
+        description: "Your Ragora API key (starts with sk_live_). Get one at https://ragora.app/settings?tab=developer"
+  exampleConfig:
+    apiKey: "sk_live_your_key_here"
+  url: "https://mcp.ragora.app/mcp"
+  headers:
+    Authorization: "Bearer {{apiKey}}"

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.ragora/mcp-server",
+  "title": "Ragora",
+  "description": "Search your knowledge bases from any AI assistant. Ragora is a knowledge marketplace that lets you upload, organize, and search documents using hybrid RAG (dense + sparse vectors). Connect via MCP to search across all your collections directly from Claude, Cursor, VS Code, and more.",
+  "version": "3.0.0",
+  "websiteUrl": "https://ragora.app",
+  "repository": {
+    "url": "https://github.com/velarynai/ragora-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ragora.app/mcp"
+    }
+  ],
+  "tools": [
+    {
+      "name": "discover_collections",
+      "description": "List all knowledge bases you have access to, with descriptions, stats, available operations, and usage examples."
+    },
+    {
+      "name": "search",
+      "description": "Search across all your knowledge bases at once. Returns ranked results with relevance scores and source metadata."
+    },
+    {
+      "name": "search_collection",
+      "description": "Search a specific knowledge base by name or slug, with optional tag and metadata filters."
+    },
+    {
+      "name": "check_balance",
+      "description": "Check your current credit balance and estimated USD value."
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {}
+  }
+}
