@@ -27,10 +27,6 @@
     {
       "name": "search_collection",
       "description": "Search a specific knowledge base by name or slug, with optional tag and metadata filters."
-    },
-    {
-      "name": "check_balance",
-      "description": "Check your current credit balance and estimated USD value."
     }
   ],
   "_meta": {

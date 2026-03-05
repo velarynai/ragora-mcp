@@ -116,7 +116,6 @@ Ragora uses **Streamable HTTP** transport. Point any MCP-compatible client to:
 | `discover_collections` | List all knowledge bases you have access to, with descriptions, stats, and usage examples |
 | `search` | Search across **all** your knowledge bases at once |
 | `search_collection` | Search a **specific** collection by name, with optional tag/metadata filters |
-| `check_balance` | Check your current credit balance |
 
 ### Tool Parameters
 
@@ -156,9 +155,6 @@ Configure tool names and descriptions in the Ragora dashboard under **Collection
 
 **Discover what's available:**
 > "What workspaces do I have, and what's in them?"
-
-**Check balance:**
-> "Check my Ragora credit balance"
 
 ## How It Works
 
