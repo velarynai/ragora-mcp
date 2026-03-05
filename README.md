@@ -6,6 +6,10 @@ Ragora's MCP server is a **hosted cloud service** — no local installation requ
 
 **Server URL:** `https://mcp.ragora.app/mcp`
 
+<a href="https://glama.ai/mcp/servers/@velarynai/ragora">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@velarynai/ragora/badge" alt="ragora MCP server" />
+</a>
+
 ## Quick Start
 
 ### 1. Get an API Key
